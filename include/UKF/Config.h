@@ -1,4 +1,6 @@
 /* Selects the floating-point precision to use. */
+#define UKF_DOUBLE_PRECISION 1
+
 #if defined(UKF_DOUBLE_PRECISION)
   typedef double real_t;
 #elif defined(UKF_SINGLE_PRECISION)
